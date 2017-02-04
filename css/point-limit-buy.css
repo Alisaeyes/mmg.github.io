@@ -1,0 +1,219 @@
+/*-----------------一分夺宝结束----------------------*/
+/*右侧立即购买开始*/
+.point-buy-details{width: 770px;text-align: left;}
+.point-buy-details h2{color:#333;font-size: 22px;line-height: 20px;}
+.point-buy-details h3{margin-top: 15px;color:#333;font-size: 16px;}
+.merchant-security{margin-top: 20px;}
+.merchant-security li{float: left;color:#817f80;margin-right: 30px;line-height: 22px;}
+.merchant-security li i{color:#db3750;font-size: 22px;float: left;margin-right: 8px;}
+.enjoy-list{font-size: 12px;color:#222;margin-top: 20px;}
+.enjoy-list span{float: left;line-height: 20px;margin-right: 5px;}
+.enjoy-list li{float:left;width: 20px;height: 20px;overflow: hidden;background-image:url(../images/points-limit-buy/enjoy-icon.png);margin-right: 4px;}
+.enjoy-icon1{background-position:0 0;}
+.enjoy-icon2{background-position:20px 0;}
+.enjoy-icon3{background-position:43px 0;}
+.enjoy-icon4{background-position:66px 0;}
+.enjoy-icon5{background-position:89px 0;}
+.one-thing-num{margin-top: 40px;line-height: 25px;color:#999;font-size: 15px;}
+.one-thing-num span{font-size: 22px;color:#f80000;margin-right: 10px;}
+.one-thing-num b{color:#333;margin-right: 10px;}
+.enjoy-points{margin-top: 60px;color:#222;}
+.buy-btn{border-radius: 5px;padding:5px 20px;color:#fff;font-size: 18px;text-align: center;margin-right: 10px;border:none;line-height: normal;margin-top: 30px; }
+.points-buy-btn{background-color: #f80000;}
+.points-buy-btn:hover{background-color: #fb3a3a;cursor: pointer;}
+.points-add-order{background-color: #ff9000;}
+.points-add-order:hover{background-color: #fca435;cursor: pointer;}
+/*积分百分比*/
+.points-prefect{margin-top: 10px;}
+.points-all{display: inline-block;width: 440px;height: 14px;border-radius: 2%/50%;background-color: #ececec;}
+.points-num{width: 215px;height: 14px;border-radius: 3%/50%;background-color: #ff9000;}
+.points-prefect span{font-size: 14px;color:#999;vertical-align: 2px;margin-left: 2px;}
+.remain-and-need{margin-top: 8px;width: 440px;}
+.remain-and-need span{font-size: 14px;color:#777;}
+span.remain-points{color:#f80000;}
+/*右侧立即购买结束*/
+/*一分夺宝：商品详情、参与夺宝记录、晒单、往期夺宝开始*/
+.recommend-title span.limit-points-select{border-top-color:#F80000;background-color: #fff;}
+.points-goods-details{margin-top: 30px;border-top: 1px solid #e4e4e4;}
+.points-details-box{border:1px solid #e4e4e4;border-top:none;text-align: center;}
+.points-record-box{margin-bottom: 30px;}
+.record-list li{line-height: 42px;color:#888;font-size: 12px;}
+.record-list{position: relative;z-index: 20;}
+.record-list li b,.record-list li i,.record-list li i e,.record-list li h2,.record-list li h2 p,.record-list li h3{display: inline-block;*display: inline;zoom:1;}
+.record-list li b{width: 120px;}
+.record-list li i{font-size: 25px;border-radius: 50%;height: 14px;width: 14px;background-color: #ddd;line-height: 4px;text-align: center;}
+.record-list li i e{width: 4px;height: 4px;border-radius: 50%;line-height: 4px;border:3px solid #fff;}
+.record-list li h2{margin-left: 12px;vertical-align: 3px;}
+.record-list li h2 img{width: 20px;height: 20px;vertical-align:middle;margin-right: 5px;}
+.record-list li h2 p{color:#339aff;}
+.record-list li h2 span{color:#f80000;}
+.record-list li h3{font-size: 24px;margin-left: -32px;margin-right: 20px; *margin-left: -36px; }
+.indiana-record{position: relative;display: inline-block;*display: inline;zoom:1;z-index: 10;margin:30px 0;}
+.record-line{width: 2px;background-color: #ddd;position: absolute;top:0;bottom:0;left: 130px;z-index: 15;}
+/*晒单*/
+.bask-border-box{padding-bottom: 10px;}
+.bask-order-list{padding-top: 20px;}
+.bask-order-list li{margin-bottom: 30px;}
+.bask-order-pho,.bask-order-msg{display: inline-block;*display: inline;zoom:1;text-align: left;vertical-align: top;}
+.bask-order-pho img{width: 90px;height: 95px;padding:3px 3px 6px;border:1px solid #e4e4e4;border-radius: 5px;}
+.bask-order-pho p{color: #3598fe;text-align: center;margin-top: 0px;font-size: 12px;}
+.bask-order-msg{width: 1000px;margin-left: 20px;border:1px solid #e4e4e4;border-radius: 5px;}
+.bask-order-msg h2{line-height: 42px;background-color: #fcfcfc;color:#444;font-size: 20px;padding:0 22px;border-bottom: 1px dashed #e4e4e4;border-top-left-radius: 8px;border-top-right-radius: 8px;position: relative;font-weight: bold;}
+.bask-order-msg h2 span{position: absolute;right:22px;line-height: 42px;*line-height: 27px;color:#222;font-size: 12px;font-weight: normal;}
+.bask-order-msg p{font-size: 13px;color:#888;margin-left: 45px;line-height: 35px;}
+
+ .bask-order-img{margin-left: 17px;margin-bottom: 20px;}
+.bask-order-img li{float: left;border:1px solid #e4e4e4;padding:1px;width: 142px;height: 142px;overflow: hidden;line-height: 142px;margin:0 5px;}
+.bask-order-img li img{max-width: 142px;max-height: 142px;vertical-align: middle;} 
+
+.baskorder-ul li{float: left;border:1px solid #e4e4e4;padding:1px;width: 142px;height: 142px;overflow: hidden;line-height: 142px;margin:0 5px;}
+.baskorder-ul li img{max-width: 142px;max-height: 142px;vertical-align: middle;}
+.baskorder-ul li:hover,.baskorder-select,.baskorder-ul li.baskorder-select{padding:0;border:2px solid #d0012f;}
+
+#xs-page.bask-order-page{margin-right: 35px;}
+/*往期夺宝*/
+.history-indiana-box{padding:20px;text-align: left;}
+.history-indiana-list{padding:0 15px;font-size: 14px;color:#333;}
+.history-indiana-list li{line-height: 140px;border-bottom: 1px solid #e4e4e4;}
+li.record-list-first{text-align: left;}
+.history-indiana-list li:after{clear:both;display: block;zoom:1;content:"";width: 0;height: 0;overflow: hidden;}
+.history-indiana-list li p,.history-user,.lucky-code,.history-indiana-list li>a{display: inline-block;*display: inline;zoom:1;vertical-align: top;float: left;}
+.history-indiana-list li p,.history-indiana-list li>a{width: 10%;text-align: center;vertical-align: middle;}
+.history-user,.lucky-code{margin-top: 30px;}
+.history-user{width: 45%;margin-left: 35px;}
+.history-user img{width: 70px;height: 70px;float: left;margin-right: 22px;}
+.history-user a,.history-indiana-list li>a{color:#339aff;}
+.history-indiana-list li>a:hover{text-decoration: underline;}
+.history-indiana-list li .history-user a{width: auto;}
+.history-indiana-list li dl dd{line-height: 26px;}
+.history-indiana-list li dl dd b{color:#f80000;}
+.lucky-code{width: 25%;margin-right: 20px;}
+#xs-page.history-indiana-page{margin-top: 20px;margin-right: 15px;}
+/*一分夺宝：商品详情、参与夺宝记录、晒单、往期夺宝结束*/
+/*-----------------一分夺宝开始----------------------*/
+
+/*-----------------限时抢够 开始----------------------*/
+/*右侧立即购买*/
+.integral-price{font-size: 14px;color:#444;margin-top: 20px;}
+.limit-buy-price{font-size: 14px;color:#f80000;margin-top: 20px;}
+.limit-buy-price b{font-weight: bold;}
+.limit-buy-price b i{font-size: 25px;font-weight: normal;}
+.color-classify {margin-top: 30px;}
+.color-classify li{color:#333;float: left;border:1px solid #e4e4e4;width: 32px;height: 32px;overflow: hidden;margin-right: 3px;padding:1px;}
+.color-classify li.classify-select{border-color: #f80000;}
+.color-classify li img{max-width: 32px;max-height: 32px;}
+.color-classify span{float: left;line-height: 34px;margin-right: 8px;}
+.package-type{color:#333;font-size: 14px;margin-top: 20px;}
+.package-type span{padding:2px 7px 3px;border:1px solid #e4e4e4;}
+.limit-buy-num{margin-top: 20px;}
+/*商品详情、规格参数、累计评价*/
+.limit-buy-box{margin-top: 20px;border-top: 1px solid #e4e4e4;position: relative;z-index: 10;}
+.limit-details-box{padding:20px;position: relative;z-index: 20;}
+ul.limit-buy-parameters{text-align: left;width: 760px;padding:0;}
+ul.limit-buy-parameters li{line-height: 30px;}
+.goods-brand-name{color:#777;font-size: 13px;text-align: left;line-height: 35px;}
+.goods-brand-name a{color:#3598fe;}
+.limit-goods-parameters{color:#777;text-align: left;line-height: 45px;font-size: 13px;}
+.limit-details-content{margin-top: 40px;}
+/*规格参数*/
+.specification-box{position: relative;z-index: 30;margin-top: -1px;}
+.limit-specification{text-align: left;}
+.specification-list li{line-height: 28px;border-bottom: 1px solid #f2f2f2;padding:0 20px;}
+.specification-list li span,.specification-list li p{display: inline-block;*display: inline;zoom:1;padding:0 5px;}
+.specification-list li span{text-align: right;color:#888;width: 15%;border-right: 1px solid #f7f7f7;}
+.specification-list li p{color:#333;width: 75%;}
+.limit-specification h2{text-indent: 2em;font-size: 14px;color:#333;font-weight: bold;background-color: #f7f7f7;line-height: 30px;border-top: 1px solid #e4e4e4;}
+.package-list{margin-top: 10px;border:1px solid #e4e4e4;border-top: none;}
+li.limit-last{border-bottom: none;}
+#xs-page.limit-recommend-page{margin-right: 35px;margin-bottom: 20px;text-align: right;}
+/*累计评价图片*/
+.baskorder-sumb-box{position: relative;width:704px; }
+.baskorder-slide-box{width:624px;height: 146px;overflow: hidden; margin-left: 40px;}
+.bask-order-btn{width: 30px;font-size: 28px;color:#e5e5e5;position: absolute;top:0;height: 146px;line-height: 146px;}
+.bask-order-btn:hover{color:#ccc;}
+.bask-order-box{margin-bottom: 25px;}
+.baskorder-prev{left: 0;}
+.baskorder-next{right:0;}
+/*-----------------限时抢够 结束----------------------*/
+/*---------------一分夺宝列表 开始------------------*/
+.points-list-all{border:1px solid #ddd;border-top: none;}
+.points-list-all h2{background-color: #f5f5f5;line-height: 40px;border-bottom: 1px solid #ddd;color:#333;font-size: 16px;padding-left: 10px;}
+.points-list-all h2 span{font-size: 12px;color:#999;margin-left: 3px;}
+.points-list-all h2 span b{color:#f80000;font-size: 14px;font-weight: bold;}
+.points-list-ul{padding:20px 0;}
+.points-list-ul li{float: left;border-right: 1px solid #ddd;text-align: center;width: 12.4%;}
+.points-list-ul li img{width: 50px;height: 50px;}
+.points-list-ul li p{color:#333;font-size: 14px;margin-top: 10px;}
+.points-list-ul li.points-list-last{border-right: none;}
+.points-list-ul li.points-list-selects p,.points-list-ul li:hover p{color:#f80000;}
+.points-goods-list{margin-top: 10px;}
+.goods-list-title{line-height: 81px;padding:0 25px;background-color: #f5f5f5;font-size: 0;border:1px solid #ddd;}
+.goods-list-title span{font-size: 12px;color:#666;padding:3px 8px;background-color: #fff;margin-right: 10px;border:1px solid #ddd;}
+.goods-list-title span i{font-size: 12px;margin-left: 3px;}
+.goods-list-title span:hover,.goods-list-title span.title-select{background-color: #f60100;color:#fff;border-color:#f60100;}
+.points-product-list{border-left: 1px solid #ddd;}
+.points-product-list li{float: left;width: 299px;overflow: hidden;border-right: 1px solid #ddd;border-bottom: 1px solid #ddd;}
+.product-img{width:299px;height:220px;overflow: hidden;display: block; border-bottom: 1px solid #ddd;}
+.product-img img{max-width:299px;max-height:220px;}
+.product-msg{padding:20px;font-size: 12px;line-height: 22px;}
+.product-msg p{color:#666;position: relative;}
+.product-msg p b{position: absolute;right: 0;}
+.progress-bar{margin: 10px 0;background-color: #ececec;border-radius: 4px/50%;height: 9px;}
+.bar-percentage{background-color: #ff9000;border-top-left-radius: 4px 50%;border-bottom-left-radius:  4px 50%;width:30%;height: 100%;}
+.product-msg a.buy-btn{margin-top: 13px;}
+#xs-page.points-list-page{margin-top: 20px;}
+.product-msg:hover{background-color: #f9f9f9;}
+.product-img:hover img{margin-left: -10px;}
+/*---------------一分夺宝列表 结束------------------*/
+
+/* 限时抢购 列表 start */
+.flash-sale-tj,.flash-sale-list,.flash-sale-jd,.flash-sale-money,.screenings-nav,.flash-sale-tj-item{overflow:hidden;}
+.y-flash-money{text-decoration:line-through;}
+.screenings-time,.today-limit .the-countdown,.surplus b,.x-flash-money,.y-flash-money{font-weight:bold;}
+.screenings-wrap{width: 100%;height: 50px;background:#333;}
+.screenings-nav{height: 100%;}
+.today-limit{height: 100px;background:url(../images/points-buy/xs_top_bg.png) center center no-repeat;background-size: 100% 100%;text-align:center;color:#fff;line-height:100px;}
+.today-limit-g{font-size:25px;font-weight:bold;padding:0 10px;}
+.today-limit-g i{font-size:28px;font-weight:400;}
+.today-limit .the-countdown{padding-left:10px;font-size:22px;}
+.screenings-nav-item{height: 48px;color:#aaa;float:left;font-size:16px;width: 185px;text-align:center;border-bottom:2px solid transparent;}
+.screenings-time{margin-top:5px;height: 20px;}
+.screenings-state{font-size:12px;}
+.tomorrow-trailer{line-height:50px;}
+.tomorrow-trailer i{font-size:25px;display:inline-block;vertical-align:middle;margin-top:-3px;}
+.screenings-nav .on{background:#121212;border-bottom:2px solid #fe2047;}
+.screenings-nav .on div{display:inline;line-height:50px;}
+.screenings-nav .on .screenings-time{font-size:18px;color:#fff;}
+.screenings-nav .on .screenings-state{font-size:16px;margin-left:5px;color:#fe2047;}
+.screenings-banner,.screenings-banner .banner-wrap,.screenings-banner .banner-wrap .banner-item{height: 520px;}
+
+.flash-sale-list{margin:20px 0;margin-left:-13px;}
+.flash-sale-item{width: 290px;height: 420px;background:#fff;margin-left:13px;margin-bottom:15px;float:left;}
+.flash-sale-img{height: 290px;overflow:hidden;}
+.flash-sale-img a,.flash-sale-img a img,.flash-sale-btn a{display:block;width: 100%;height: 100%;}
+.flash-sale-name{font-weight:bold;height: 22px;font-size:15px;}
+.flash-sale-des{color:#666;}
+.flash-sale-jd,.flash-sale-des,.flash-sale-name{margin: 0px 15px;}
+.flash-sale-jd{margin-top:15px;margin-bottom:15px;}
+.speed-of-progress{width: 90px;height: 10px;border:1px solid #fed2c5;border-radius:10px;}
+.speed-of-progress-item{height: 100%;background:#fed2c5;}
+.surplus{color:#d91626;margin-left:15px;margin-top:-4px;}
+.flash-sale-money{height: 46px;background:#df2634;color:#fff;line-height:46px;}
+.flash-sale-money-txt{padding:0 10px;width: 169px;height: 46px;}
+.x-flash-money{font-size:20px;margin-right:3px;}
+.x-flash-money b,.flash-sale-money-txt{font-size:14px;}
+.flash-sale-btn{width: 100px;height: 44px;background:#fff;margin-top:1px;text-align:center;}
+.flash-sale-btn a{font-size:16px;}
+.flash-sale-btn a,.flash-sale-name a:hover{color:#df2634;}
+.flash-sale-btn:hover{background:#FBAE00;}
+.flash-sale-item:hover{box-shadow: 1px 1px 5px #ccc,-1px -1px 5px #ccc;-webkit-box-shadow: 1px 1px 5px #ccc,-1px -1px 5px #ccc;-ms-box-shadow: 1px 1px 5px #ccc,-1px -1px 5px #ccc;-moz-box-shadow: 1px 1px 5px #ccc,-1px -1px 5px #ccc;-o-box-shadow: 1px 1px 5px #ccc,-1px -1px 5px #ccc;}
+.flash-sale-img img,.flash-sale-item,.flash-sale-tj-img img{transition: all .3s;-webkit-transition: all .3s;-ms-transition: all .3s;-moz-transition: all .3s;-o-transition: all .3s;}
+.flash-sale-item:hover img{width: 300px;height: 300px;margin-left:-5px;margin-top:-5px;}
+
+.flash-sale-tj{margin-left:-15px;}
+.flash-sale-tj-item{width: 590px;height: 328px;margin-left:15px;border:1px solid #ddd;}
+.flash-sale-tj-img{height: 286px;}
+.flash-sale-tj-item:hover img{width: 600px;margin-left:-5px;}
+.flash-sale-tj-img a,.flash-sale-tj-img img{display:block;height:100%;width: 100%;}
+.flash-sale-tj-endTime{width: 100%;height: 40px;line-height:40px;background:#fef6eb;color:#df2634;font-size:14px;text-align:center;font-weight:bold;}
+/* 限时抢购 列表 end */

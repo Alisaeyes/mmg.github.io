@@ -1,0 +1,33 @@
+/*立即购买*/
+.point-buy-details{width: 770px;text-align: left;}
+.point-buy-details h2{color:#333;font-size: 22px;line-height: 20px;}
+.point-buy-details h3{margin-top: 15px;color:#333;font-size: 16px;}
+.merchant-security{margin-top: 20px;}
+.merchant-security li{float: left;color:#817f80;margin-right: 30px;line-height: 22px;}
+.merchant-security li i{color:#db3750;font-size: 22px;float: left;margin-right: 8px;}
+.enjoy-list{font-size: 12px;color:#222;margin-top: 20px;}
+.enjoy-list span{float: left;line-height: 20px;margin-right: 5px;}
+.enjoy-list li{float:left;width: 20px;height: 20px;overflow: hidden;background-image:url(../images/points-buy/enjoy-icon.png);margin-right: 4px;}
+.enjoy-icon1{background-position:0 0;}
+.enjoy-icon2{background-position:20px 0;}
+.enjoy-icon3{background-position:43px 0;}
+.enjoy-icon4{background-position:66px 0;}
+.enjoy-icon5{background-position:89px 0;}
+.one-thing-num{margin-top: 40px;line-height: 25px;color:#999;font-size: 15px;}
+.one-thing-num span{font-size: 22px;color:#f80000;margin-right: 10px;}
+.one-thing-num b{color:#333;margin-right: 10px;}
+.enjoy-points{margin-top: 60px;color:#222;}
+.points-buy-btn,.points-add-order{border-radius: 5px;padding:5px 20px;color:#fff;font-size: 18px;text-align: center;margin-right: 10px;border:none;line-height: normal;margin-top: 30px; }
+.points-buy-btn{background-color: #f80000;}
+.points-buy-btn:hover{background-color: #fb3a3a;}
+.points-add-order{background-color: #ff9000;}
+.points-add-order:hover{background-color: #fca435;}
+/*积分百分比*/
+.points-prefect{margin-top: 10px;}
+.points-all{display: inline-block;width: 440px;height: 14px;border-radius: 2%/50%;background-color: #ececec;}
+.points-num{width: 215px;height: 14px;border-radius: 3%/50%;background-color: #ff9000;}
+.points-prefect span{font-size: 14px;color:#999;vertical-align: 2px;margin-left: 2px;}
+.remain-and-need{margin-top: 8px;width: 440px;}
+.remain-and-need span{font-size: 14px;color:#777;}
+span.remain-points{color:#f80000;}
+

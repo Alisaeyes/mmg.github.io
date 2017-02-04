@@ -1,0 +1,61 @@
+@charset "utf-8";
+.cb-f5{border-bottom:#ff5757 5px solid;}
+.ct-f5{border-top:#ff5757 5px solid;}
+.help-nav .on,.help-search-btn,.help-nav a:hover{background:#ff5757;}
+.help-qa-item a:hover,.help-qa-item:hover{color:#ff5757;}
+.help-crumbs a,.help-detais-content p a,.more-list-item-nav a:hover{color:#e8362a;}
+
+.help-nav{left:165px;bottom:-25px;width: 1030px;text-align:right;}
+.help-nav a{font-size:16px;font-weight:600;color:#333;padding:15px 25px;display:inline-block;margin:0 30px;}
+.help-nav .on,.help-search-btn,.help-nav a:hover{color:#fff;}
+.help-banner{height: 230px;}
+
+.help-wrap{margin:40px auto;}
+.help-menu{width: 200px;height: 880px;padding:35px 0;background:#f2f2f2;}
+.help-menu-item{display:block;font-size:14px;height: 35px;line-height:35px;color:#666;padding:0 40px;width: 117px;border-left:3px solid transparent;margin-bottom:2px;}
+.help-menu-title{font-size:20px;margin-bottom:20px;text-indent:40px;}
+.help-menu-list .on,.help-menu-item:hover{background:#fcfcfc;color:#333;font-weight:bold;border-left:3px solid #ff5757;}
+
+.help-menu-contet{width: 920px;padding-left:80px;}
+.help-search{margin:68px;}
+.help-search-input{width: 592px;border:2px solid #ff5757;height: 35px;line-height:35px;padding:0 10px;font-size:14px;}
+.help-search-btn{width: 100px;height: 39px;font-size:16px;font-weight:bold;line-height:35px;}
+.help-search-btn:hover{background:#f73030}
+.help-tab-title{font-size:22px;font-weight:600;color:#666;margin-bottom:15px;}
+.help-tab{height: 38px;margin-bottom:30px;line-height:38px;}
+.help-tab-list{width: 140px;height: 100%;background:#eaeaea;font-size:14px;margin-right:10px;}
+.help-tab-list a{color:#888;display:block;position: absolute;z-index: 10;width: 100%;text-align:center;}
+.triangle{font-size:35px;bottom:20px;left:50%;margin-left:-10px;display:none;z-index:5;}
+.help-tab .on .triangle{display:block;color:#5e5e5e;}
+.help-tab .on a,.help-tab-list:hover a{background:#5e5e5e;color:#fff;}
+
+.help-qa-item{float:left;width: 40%;font-size:14px;margin-left:45px;margin-bottom: 10px;color:#666;list-style:square;}
+.help-qa-item a{color:#666;}
+
+.more-list{margin-left:-65px;width: 1100px;margin-top:65px;}
+.more-list-item{float:left;width:415px;margin-left:65px;}
+.more-list-item h5{width: 100%;height: 30px;background:#ffeded;color:#666;font-size:14px;line-height:30px;text-align:center;}
+.more-list-item-nav{padding:15px;font-size:14px;}
+.more-list-item-nav a{display:inline-block;width: 125px;color:#666;margin-bottom:10px;}
+
+.help-details{border:1px solid #ddd;}
+.help-crumbs{margin:0 10px;border-bottom:1px solid #ddd;padding:5px 0;font-size:14px;}
+.help-crumbs .on{color:#333;}
+.help-crumbs a:hover,.help-detais-content p a:hover{text-decoration:underline;}
+.help-crumbs .on:hover{text-decoration:none;}
+.help-detais-content{margin:0 25px;}
+.help-detais-content h3{font-size:18px;color:#333;text-align:center;margin:20px 0;}
+.help-detais-content p{font-size:14px;color:#666;line-height:50px;}
+
+.kf-ico-item,.lxkf-item{float:left;}
+.kf-ico-item i{width: 92px;height: 84px;display:block;margin:0 auto;margin-top:40px;margin-bottom:25px;}
+.kf-ico{margin-left:-5px;}
+.kf-ico-item{width: 395px;height: 242px;color:#666;background:#f7f7f7;margin-left:5px;text-align:center;}
+.zx-kf{background:url(../images/help/kf_icon.jpg);background-size:100% 100%;}
+.jq-kf{background:url(../images/help/j1kf_icon.jpg);background-size:100% 100%;}
+.wx-kf{background:url(../images/help/weixin_icon.jpg);background-size:100% 100%;}
+.kf-ico-item h4,.lxkf-item h4{font-size:20px;font-weight:bold;margin-bottom:10px;}
+
+.lxkf-item{margin:28px 40px;color:#666;}
+.lxkf-item a{display:block;width: 115px;height: 25px;margin-top:15px;text-align:center;line-height:25px;border:1px solid #ddd;background:#f8f8f8;}
+.lxkf-item a:hover{background:#f3f3f3;}

@@ -1,0 +1,50 @@
+@charset "utf-8";
+/*关于我们 start*/
+.about-header{border-bottom: 5px solid #ff5757;}
+.about-search .header-search-wrap{width: auto;}
+.empty-car{color:#666;font-size: 12px;position: relative;margin-left: 15px;}
+.empty-car i{font-size: 26px;margin-right: 5px;}
+.empty-car span{position: absolute;top:-9px;color:#fff;background-color: #a5a5a5;font-weight: bold;text-align: center;font-size: 12px;padding:0 8px 0 4px;left: 14px;}
+.empty-car span b{background: url(../images/about-us/car-arrow.png) center center no-repeat;width: 5px;height: 4px;margin-bottom: -9px;}
+.about-header i.voice{right: 200px;}
+.empty-car:hover{color:#e3101e;cursor: pointer;}
+.about-baner{width: 100%;height: 230px;min-width: 1200px;background: url(../images/about-us/about-banner.jpg) center center no-repeat;}
+.about-container{margin-top: 40px;}
+/*侧导航*/
+.about-nav{font-size: 14px;border: 1px solid #ddd;border-bottom: none;width: 200px;}
+.about-nav li{line-height: 50px;border-bottom: 1px solid #ddd;text-indent: 50px;}
+.about-nav li a{color:#666;display: block;}
+.about-nav li img{width: 17px;height: 17px;vertical-align: middle;margin-right: 8px;}
+.about-nav li.about-select a,.about-nav li a:hover{background-color: #414141;color:#fff;}
+/*右侧内容*/
+.about-content{width: 930px;padding:0 20px;}
+.about-title{font-size: 18px;color:#333;line-height: 40px;font-weight: normal;}
+.about-page{margin-top: 35px;}
+.about-txt1{font-size: 14px;color:#555;line-height: 35px;}
+/*关于我们 end*/
+/*商城公告 start*/
+.announce-title{border-bottom: 1px solid #ddd;position: relative;}
+.announce-title span{position: absolute;right: 20px;font-size: 13px;color:#666;}
+.announce-title span b{margin-left: 20px;color:#999;}
+.announce-title span b i{color:#f3a773;}
+.announce-list li{line-height: 55px;border-bottom: 1px solid #ddd;font-size: 14px;}
+.announce-list li a{color:#555;display: block;position: relative;}
+.announce-list li a:hover{background-color: #f9f9f9;}
+.announce-list li span{position: absolute;right: 0;color:#aaa;font-size: 13px;}
+.announce-list li span b{margin-left: 15px;}
+#xs-page.announce-page{text-align: center;margin-top: 30px;}
+/*商城公告 end*/
+/*商城公告列表 start*/
+.announce-details-title{text-align: center;}
+.announce-details-title h2{font-size: 26px;font-weight: normal;color:#333;}
+.announce-details-title p{font-size: 14px;color:#999;text-align: left;margin-left: 250px;margin-top: 10px;}
+.announce-content{border-top: 1px solid #ddd;border-bottom: 1px solid #ddd;margin-top: 15px;padding-bottom: 35px;}
+.annouce-txt1{font-size: 14px;color:#444;line-height: 22px;margin-top:25px;}
+.txt-margin1{margin-bottom: 50px;}
+.an-txt2{margin-left: 6px;}
+.prev-next{margin-top: 10px;}
+.prev-next p{margin-top: 15px;font-size: 14px;color:#999;}
+.prev-next p a{color:#0052a6;}
+.prev-next p a:hover{color:#ff5757;}
+.about-content img{margin:10px 0;max-width: 100%;}
+/*商城公告列表 end*/

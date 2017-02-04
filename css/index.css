@@ -1,0 +1,114 @@
+﻿@charset "utf-8";
+/* banner start */
+.banner{width: 100%;height: 480px;min-width:1200px;}
+.banner-wrap .banner-item{height: 100%;position:absolute;left:0;top:0;display:none;}
+.banner-wrap .banner-item a{display:block;height: 100%;}
+.banner-wrap .banner-item img{height:100%;width: 100%;}
+.mask-center{width: 1200px;height: 0;left:50%;margin-left:-601px;top:0;z-index:100000;}
+.banner-content{width: 230px;height: 480px;background: #efefef;}
+.banner-index-btn{width: 100%;min-width:1200px;bottom:0;left:0;text-align: center;height: 35px;line-height: 35px;z-index:10000;}
+.banner-index-btn-item{display:inline-block;width: 12px;height: 12px;background:#E7E7E7;margin-right:2px;cursor:pointer;opacity:.5;filter:alpha(opacity=50);}
+.banner-index-btn .on{background:#ff3366;opacity:1;filter:alpha(opacity=100);}
+
+.banner-content-tab{height: 48px;line-height:48px;}
+.banner-content-tab-item{width: 50%;height: 100%;text-align:center;background:#e6e6e6;color:#333;font-size: 16px;}
+.banner-content-tab-item-on{background:#efefef;}
+.banner-content-text{display: none;}
+.banner-content-on{display: block;}
+.commodity-lits{padding:15px;background:#fff;}
+.commodity-lits li{height: 16px;width: 100%;overflow: hidden;margin:5px 0;}
+.commodity-lits a{color:#666;}
+.commodity-lits a:hover,.panic-buying-name a:hover,.hot-recommend-money,.hot-recommend-item:hover a,.guess-link-list-item:hover .hot-recommend-money{color:#e3101e;}
+
+.count-wrap{padding:10px 15px;}
+.count-title{font-size:16px;color:#333;}
+.count-down{margin:12px 0;color:#999;text-align:center;}
+.count-down span{padding:2px 5px;background:#333;color:#fff;display:inline-block;}
+
+.panic-buying-img{display:block;width: 100%;height: 120px;}
+
+.panic-buying-name{width:100%;height: 16px;text-overflow:ellipsis;white-space:nowrap;overflow：hidden;margin:3px 0;}
+.present-price,.hot-nav-item a:hover{color:#ff3366;}
+.present-price b{font-size:18px;}
+.original-price{font-size:14px;text-decoration: line-through;padding-left: 15px;}
+.buying-btn,.original-price{color:#999;}
+.buying-btn{text-align:right;margin-top:5px;}
+.buying-btn span{display:inline-block;padding-right:15px;vertical-align: top;margin-top:8px;}
+
+.banner-btn{position:absolute;font-size:30px;color:#fff;z-index:9999999999999999999;font-weight:300;height: 60px;width: 40px;background:#000;text-align:center;line-height:60px;margin-top:210px;opacity:0;filter:alpha(opacity=0);}
+.prevBtn{left:240px;}
+.nextBtn{right:240px;}
+
+.banner:hover .banner-btn{opacity:.2;filter:alpha(opacity=20);}
+.banner .prevBtn:hover,.banner .nextBtn:hover{opacity:.6;filter:alpha(opacity=60);}
+/* banner end */
+
+/* 抢购列表 start */
+.list-wrap{height: 190px;margin:25px auto;}
+.list-item,.list-Go,.list-times span{color:#fff;}
+.list-item{width: 290px;height: 130px;padding:30px 50px;}
+.list-item1{background:url(../images/list_1.jpg);background-size: 100% 100%;}
+.list-item2{background:url(../images/list_2.jpg);background-size: 100% 100%;margin:0 15px;position:relative;overflow:hidden;}
+.list-item3{background:url(../images/list_3.jpg);background-size: 100% 100%;}
+.list-title{font-size:25px;font-weight:600;margin-bottom: 10px;}
+.list-des{font-size:14px;}
+.list-Go{display:block;width: 60px;height: 30px;border:1px solid #fff;border-radius:15px;font-size:16px;text-align:center;line-height:30px;margin-top:15px;}
+.list-Go:hover{background:#ff3366;border:1px solid #ff3366;}
+.list-times{color:#333;margin-top:5px;}
+.list-times span{padding:2px 5px;background:#333;}
+
+.list-mask{width: 100%;height:190px;opacity: .6;filter:alpha(opacity = 60);background:#000;position:absolute;left:0;top:-100%;}
+/* 抢购列表 end */
+
+/* 热门推荐 start */
+.hot-recommend-title,.hot-nav,.hot-recommend-name,.hot-recommend-money{text-align: center;}
+.hot-recommend-title{font-size:25px;color:#333;}
+.hot-nav{height: 1px;background:#ddd;margin:20px 0 40px 0;}
+.hot-nav-item{background:#fff;display:inline-block;font-size:16px;vertical-align: top;margin-top:-13px;}
+.hot-nav-item a{padding:0 20px;border-right:1px solid #eee;}
+.hot-nav-item .bd{border:none;}
+
+.hot-recommend-wrap{height: 580px;}
+.hot-recommend-left{width: 280px;height: 100%;overflow: hidden;}
+.hot-recommend-right{width: 910px;height: 100%;}
+.hot-recommend-item,.preferred-brand-bottom-item{border:2px solid transparent;}
+.hot-recommend-item{width: 216px;height: 281px;margin-right:10px;background:#f5f5f5;margin-bottom: 10px;overflow: hidden;}
+.hot-recommend-img{padding:20px 0;text-align: center;height: 175px;}
+.hot-recommend-money,.hot-recommend-img{display:block;}
+.hot-recommend-name{font-size:14px;height: 18px;width: 196px;margin:0 10px;margin-bottom:5px;}
+.last-hot-recommend-item{width: 446px;}
+.hot-recommend-item:hover,.preferred-brand-bottom-item:hover{border:2px solid #ff3366;}
+.hot-recommend-item:hover img,.hot-recommend-left img:hover,.preferred-brand-top-item img:hover{-webkit-transform: scale(1.03);-moz-transform: scale(1.03);-ms-transform: scale(1.03);-o-transform: scale(1.03);transform: scale(1.03);}
+.hot-recommend-dt{padding:40px 30px;}
+.hot-recommend-dt p, .hot-recommend-dt span{text-align: left;}
+.hot-recommend-dt p{margin:25px 0;}
+.hot-recommend-item img{height: 100%;}
+.hot-recommend-dt span{font-size:20px;color:#222;}
+.hot-recommend-dt-name{font-size:20px;}
+.last-hot-recommend-item .hot-recommend-img{width: 185px;height: 262px;}
+/* 热门推荐 end */
+
+/* 优选品牌 start */
+.preferred-brand-top{margin-bottom:25px;}
+.preferred-brand-top-item{width: 390px;height: 175px;}
+.preferred-brand-top-item,.preferred-brand-bottom-item,.preferred-brand-top{overflow: hidden;}
+.preferred-brand-bottom-item{width: 180px;height: 86px;background:#f4f4f4;margin-right:10px;margin-bottom: 10px;}
+.preferred-brand-bottom-item img{display: block;}
+/* 优选品牌 end */
+
+/* 猜你喜欢 start */
+.hot-nav-item .hot-recommend-title{display:inline-block;font-weight:600;vertical-align: top;margin-top:-7px;padding:0 20px;}
+.guess-link{margin-top:80px;}
+.guess-link-list{width: 100%;}
+.guess-link-list-item{margin:0 10px;background: transparent;}
+.guess-link-list-item:hover img{transform: scale(1);-webkit-transform: scale(1);}
+.guess-link-list-item .hot-recommend-money{color:#333;font-size:15px;}
+.guess-link-more{margin:40px 0;text-align: center;}
+.guess-link-more span{padding:10px 50px;border:1px solid #666;color:#666;border-radius: 25px;font-size:14px;}
+.guess-link-more span:hover{background:#FF5757;border:1px solid #FF5757;color:#fff;}
+/* 猜你喜欢 end */
+
+footer .footer{margin-top:20px;}
+.m0{margin-right:0;}
+.m50{margin-top:50px;}
+.m20{margin:0 15px;}
